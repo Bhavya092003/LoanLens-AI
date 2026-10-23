@@ -33,7 +33,6 @@ import {
   Menu,
   MoreHorizontal,
   Search,
-  Settings,
   ShieldCheck,
   SlidersHorizontal,
   Users,

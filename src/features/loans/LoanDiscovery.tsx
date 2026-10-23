@@ -6,10 +6,8 @@ import {
   Calculator,
   Check,
   ChevronDown,
-  Clock3,
   GraduationCap,
   House,
-  IndianRupee,
   Info,
   Languages,
   MessageCircle,
@@ -20,7 +18,6 @@ import {
   Sparkles,
   Sun,
   Wallet,
-  X,
   CarFront,
 } from "lucide-react";
 
@@ -206,7 +203,7 @@ export default function LoanDiscovery({
   const [annualRate, setAnnualRate] = useState(10.5);
   const [tenureYears, setTenureYears] = useState(5);
 
-  const [advisorInput, setAdvisorInput] = useState(
+  const [advisorInput] = useState(
     "I need ₹5 lakh for a used car, earn ₹60,000/month, and want an EMI below ₹12,000.",
   );
   const [advisorAmount, setAdvisorAmount] = useState("500000");
@@ -215,7 +212,7 @@ export default function LoanDiscovery({
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
   const [advisorError, setAdvisorError] = useState("");
   const [advisorLoading, setAdvisorLoading] = useState(false);
-  const [clarifyingQuestion, setClarifyingQuestion] = useState("");
+  const [, setClarifyingQuestion] = useState("");
 
   const emi = calculateEmi(principal, annualRate, tenureYears * 12);
   const totalPayment = emi * tenureYears * 12;

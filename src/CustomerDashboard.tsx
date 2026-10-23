@@ -4,7 +4,6 @@ import {
   Bell,
   Bot,
   CalendarDays,
-  MessageCircle,
   CarFront,
   CheckCircle2,
   ChevronRight,
@@ -19,7 +18,7 @@ import {
   ShieldCheck,
   Wallet,
 } from "lucide-react";
-import { useState } from "react";
+// import { useState } from "react";
 import { usePreferences } from "./context/PreferencesContext";
 // import ChatBot from "./features/loans/ChatBot";
 import ChatbotWidget from "./features/loans/ChatBot";
@@ -93,7 +92,7 @@ export default function CustomerDashboard({
   onLogout,
 }: CustomerDashboardProps) {
   const { theme, language, setLanguage, toggleTheme } = usePreferences();
-  const [isChatBotOpen, setIsChatBotOpen] = useState(false);
+  // const [isChatBotOpen, setIsChatBotOpen] = useState(false);
 
   const isHindi = language === "hi";
   const dark = theme === "dark";
