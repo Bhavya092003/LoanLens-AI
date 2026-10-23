@@ -1,0 +1,56 @@
+
+{
+  "common": {
+    "dashboard": "डैशबोर्ड",
+    "applications": "आवेदन",
+    "documents": "दस्तावेज़",
+    "findings": "निष्कर्ष",
+    "analystReview": "विश्लेषक समीक्षा",
+    "exploreLoans": "लोन देखें",
+    "backToDashboard": "मुख्य डैशबोर्ड पर वापस जाएँ",
+    "language": "भाषा",
+    "lightMode": "लाइट मोड",
+    "darkMode": "डार्क मोड",
+    "search": "खोजें",
+    "clear": "साफ़ करें",
+    "cancel": "रद्द करें",
+    "submit": "जमा करें",
+    "noResults": "कोई परिणाम नहीं मिला"
+  },
+  "dashboard": {
+    "workspace": "कार्यक्षेत्र",
+    "systemStatus": "सिस्टम स्थिति",
+    "demoEnvironment": "डेमो वातावरण",
+    "dashboardTitle": "डैशबोर्ड",
+    "goodMorning": "सुप्रभात",
+    "subtitle": "आज आपके ऋण पोर्टफोलियो में क्या हो रहा है, यहाँ देखें।",
+    "viewApplications": "आवेदन देखें",
+    "totalApplications": "कुल आवेदन",
+    "pendingReviews": "समीक्षाधीन आवेदन",
+    "flaggedFindings": "चिह्नित निष्कर्ष",
+    "processedThisMonth": "इस महीने संसाधित",
+    "applicationOverview": "आवेदनों का विवरण",
+    "applicationsReceived": "चुनी गई अवधि में प्राप्त आवेदन",
+    "reviewQueue": "समीक्षा सूची",
+    "itemsNeedAttention": "जिन मामलों पर ध्यान देना है",
+    "documentVerification": "दस्तावेज़ सत्यापन"
+  },
+  "loans": {
+    "catalogue": "ऋण सूची",
+    "exploreProducts": "लोन उत्पाद देखें",
+    "emiCalculator": "EMI कैलकुलेटर",
+    "loanAdvisor": "AI लोन सलाहकार",
+    "allLoans": "सभी लोन",
+    "personal": "व्यक्तिगत",
+    "home": "होम",
+    "vehicle": "वाहन",
+    "education": "शिक्षा",
+    "loanAmount": "लोन राशि",
+    "interestRate": "ब्याज दर",
+    "loanTenure": "लोन अवधि",
+    "calculateEmi": "मेरी EMI की गणना करें",
+    "compare": "तुलना करें",
+    "clear": "साफ़ करें",
+    "getRecommendations": "सुझाव प्राप्त करें"
+  }
+}

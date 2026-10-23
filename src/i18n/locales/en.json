@@ -1,0 +1,56 @@
+
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "applications": "Applications",
+    "documents": "Documents",
+    "findings": "Findings",
+    "analystReview": "Analyst Review",
+    "exploreLoans": "Explore loans",
+    "backToDashboard": "Back to internal dashboard",
+    "language": "Language",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode",
+    "search": "Search",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "noResults": "No results found"
+  },
+  "dashboard": {
+    "workspace": "Workspace",
+    "systemStatus": "System status",
+    "demoEnvironment": "Demo environment",
+    "dashboardTitle": "Dashboard",
+    "goodMorning": "Good morning",
+    "subtitle": "Here's what's happening with your lending portfolio today.",
+    "viewApplications": "View applications",
+    "totalApplications": "Total applications",
+    "pendingReviews": "Pending reviews",
+    "flaggedFindings": "Flagged findings",
+    "processedThisMonth": "Processed this month",
+    "applicationOverview": "Application overview",
+    "applicationsReceived": "Applications received over the selected period",
+    "reviewQueue": "Review queue",
+    "itemsNeedAttention": "Items that need attention",
+    "documentVerification": "Document verification"
+  },
+  "loans": {
+    "catalogue": "Loan catalogue",
+    "exploreProducts": "Explore loan products",
+    "emiCalculator": "EMI calculator",
+    "loanAdvisor": "AI Loan Advisor",
+    "allLoans": "All loans",
+    "personal": "Personal",
+    "home": "Home",
+    "vehicle": "Vehicle",
+    "education": "Education",
+    "loanAmount": "Loan amount",
+    "interestRate": "Interest rate",
+    "loanTenure": "Loan tenure",
+    "calculateEmi": "Calculate my EMI",
+    "compare": "Compare",
+    "clear": "Clear",
+    "getRecommendations": "Get recommendations"
+  }
+}
